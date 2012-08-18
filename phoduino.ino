@@ -38,6 +38,7 @@ void setup()  {
 void triggerShutter() {
   //if the shutter length isn't specified, just open and close the shutter
   triggerShutter(0);
+  triggerShutter(200);
 }
 
 // Open the shutter for the specified length in ms
